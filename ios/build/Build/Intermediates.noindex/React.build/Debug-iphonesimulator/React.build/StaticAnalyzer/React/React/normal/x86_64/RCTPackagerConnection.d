@@ -1,0 +1,25 @@
+dependencies: \
+  /Users/melissautomo/g68/capstone/Capstone/node_modules/react-native/React/DevSupport/RCTPackagerConnection.mm \
+  /Users/melissautomo/g68/capstone/Capstone/node_modules/react-native/React/DevSupport/RCTPackagerConnection.h \
+  /Users/melissautomo/g68/capstone/Capstone/node_modules/react-native/React/Base/RCTDefines.h \
+  /Users/melissautomo/g68/capstone/Capstone/node_modules/react-native/React/Base/RCTAssert.h \
+  /Users/melissautomo/g68/capstone/Capstone/node_modules/react-native/React/Base/RCTBridge.h \
+  /Users/melissautomo/g68/capstone/Capstone/node_modules/react-native/React/Base/RCTBridgeDelegate.h \
+  /Users/melissautomo/g68/capstone/Capstone/node_modules/react-native/React/Base/RCTJavaScriptLoader.h \
+  /Users/melissautomo/g68/capstone/Capstone/node_modules/react-native/React/Base/RCTBridgeModule.h \
+  /Users/melissautomo/g68/capstone/Capstone/node_modules/react-native/React/Base/RCTFrameUpdate.h \
+  /Users/melissautomo/g68/capstone/Capstone/node_modules/react-native/React/Base/RCTInvalidating.h \
+  /Users/melissautomo/g68/capstone/Capstone/node_modules/react-native/React/Base/RCTBundleURLProvider.h \
+  /Users/melissautomo/g68/capstone/Capstone/node_modules/react-native/React/Base/RCTConvert.h \
+  /Users/melissautomo/g68/capstone/Capstone/node_modules/react-native/React/Views/RCTAnimationType.h \
+  /Users/melissautomo/g68/capstone/Capstone/node_modules/react-native/React/Views/RCTBorderStyle.h \
+  /Users/melissautomo/g68/capstone/Capstone/node_modules/react-native/React/Base/RCTLog.h \
+  /Users/melissautomo/g68/capstone/Capstone/node_modules/react-native/React/Base/RCTUtils.h \
+  /Users/melissautomo/g68/capstone/Capstone/node_modules/react-native/React/Views/RCTPointerEvents.h \
+  /Users/melissautomo/g68/capstone/Capstone/node_modules/react-native/React/Views/RCTTextDecorationLineType.h \
+  /Users/melissautomo/g68/capstone/Capstone/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/melissautomo/g68/capstone/Capstone/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/melissautomo/g68/capstone/Capstone/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/melissautomo/g68/capstone/Capstone/node_modules/react-native/React/DevSupport/RCTPackagerClient.h \
+  /Users/melissautomo/g68/capstone/Capstone/node_modules/react-native/React/../Libraries/WebSocket/RCTReconnectingWebSocket.h \
+  /Users/melissautomo/g68/capstone/Capstone/node_modules/react-native/React/../Libraries/WebSocket/RCTSRWebSocket.h

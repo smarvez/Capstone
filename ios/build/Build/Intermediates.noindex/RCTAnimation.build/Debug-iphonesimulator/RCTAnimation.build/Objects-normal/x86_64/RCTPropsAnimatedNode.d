@@ -1,0 +1,31 @@
+dependencies: \
+  /Users/melissautomo/g68/capstone/Capstone/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTPropsAnimatedNode.m \
+  /Users/melissautomo/g68/capstone/Capstone/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTPropsAnimatedNode.h \
+  /Users/melissautomo/g68/capstone/Capstone/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTAnimatedNode.h \
+  /Users/melissautomo/g68/capstone/Capstone/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTLog.h \
+  /Users/melissautomo/g68/capstone/Capstone/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAssert.h \
+  /Users/melissautomo/g68/capstone/Capstone/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/melissautomo/g68/capstone/Capstone/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUtils.h \
+  /Users/melissautomo/g68/capstone/Capstone/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTUIManager.h \
+  /Users/melissautomo/g68/capstone/Capstone/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/melissautomo/g68/capstone/Capstone/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/melissautomo/g68/capstone/Capstone/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/melissautomo/g68/capstone/Capstone/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/melissautomo/g68/capstone/Capstone/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/melissautomo/g68/capstone/Capstone/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/melissautomo/g68/capstone/Capstone/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTRootView.h \
+  /Users/melissautomo/g68/capstone/Capstone/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTViewManager.h \
+  /Users/melissautomo/g68/capstone/Capstone/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTConvert.h \
+  /Users/melissautomo/g68/capstone/Capstone/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTAnimationType.h \
+  /Users/melissautomo/g68/capstone/Capstone/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/melissautomo/g68/capstone/Capstone/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/melissautomo/g68/capstone/Capstone/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTTextDecorationLineType.h \
+  /Users/melissautomo/g68/capstone/Capstone/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/Yoga.h \
+  /Users/melissautomo/g68/capstone/Capstone/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGEnums.h \
+  /Users/melissautomo/g68/capstone/Capstone/ios/build/Build/Products/Debug-iphonesimulator/include/yoga/YGMacros.h \
+  /Users/melissautomo/g68/capstone/Capstone/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTEventDispatcher.h \
+  /Users/melissautomo/g68/capstone/Capstone/ios/build/Build/Products/Debug-iphonesimulator/include/React/UIView+React.h \
+  /Users/melissautomo/g68/capstone/Capstone/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/melissautomo/g68/capstone/Capstone/node_modules/react-native/Libraries/NativeAnimation/RCTAnimationUtils.h \
+  /Users/melissautomo/g68/capstone/Capstone/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTStyleAnimatedNode.h \
+  /Users/melissautomo/g68/capstone/Capstone/node_modules/react-native/Libraries/NativeAnimation/Nodes/RCTValueAnimatedNode.h
