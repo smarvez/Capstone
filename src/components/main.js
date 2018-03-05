@@ -6,15 +6,15 @@ class Main extends Component {
     users : []
   }
 
-  async componentWillMount(){
-    const response = await fetch('https://epro.herokuapp.com/users/')
+  async componentDidMount(){
+    const response = await fetch('https://rallycoding.herokuapp.com/api/music_albums')
     const json = await response.json()
     this.setState({users:json})
   }
 
   renderUsers(){
     return this.state.users.map(user => {
-      <Text>{user}</Text>
+      return <Text>{user.title}</Text>
     })
   }
 
