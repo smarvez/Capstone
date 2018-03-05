@@ -18,7 +18,7 @@ class Main extends Component {
     })
   }
 
-  render(){
+  render() {
     return (
       <View>
         {this.renderUsers()}
