@@ -1,6 +1,6 @@
 import React from 'react';
 import { AppRegistry, View, Text } from 'react-native';
-// import Main from './src/components/main';
+import Main from './src/components/main';
 import Header from './src/components/header';
 import Form from './src/components/form';
 
@@ -9,6 +9,7 @@ const App = () => {
     <View>
       <Header/>
       <Form/>
+      <Main/>
     </View>
   );
 };
