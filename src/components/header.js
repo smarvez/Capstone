@@ -15,18 +15,19 @@ const Header = () => {
 
 const styles = {
   header: {
-    backgroundColor: '#F8F8F8',
+    backgroundColor: '#FEFFFF',
     justifyContent: 'center',
     alignItems: 'center',
-    height: 80,
-    paddingTop: 30,
+    height: 70,
+    paddingTop: 15,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2},
     shadowOpacity: 0.2,
     position: 'relative',
   },
   headerText: {
-    fontSize: 20,
+    fontSize: 17,
+    fontFamily: 'Montserrat',
   },
 }
 

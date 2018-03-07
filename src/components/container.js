@@ -11,9 +11,9 @@ const Container = () => {
 
   return (
     <View style = {styles.flexStyle}>
-      <Submit />
-      <InputBox />
       <SmallInputBox />
+      <InputBox />
+      <Submit />
     </View>
   )
 
@@ -25,7 +25,6 @@ const styles = {
     alignItems: 'center',
     marginTop: 50,
     padding: 20,
-    backgroundColor: '#ffffff',
   },
 }
 

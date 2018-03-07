@@ -35,6 +35,9 @@ const styles = {
     borderWidth: 1,
     marginLeft: 5,
     marginRight: 5,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2},
+    shadowOpacity: 0.2,
   }
 };
 

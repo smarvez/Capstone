@@ -32,6 +32,9 @@ const styles = {
     marginBottom: 10,
     fontFamily: 'DidactGothic-Regular',
     position: 'relative',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2},
+    shadowOpacity: 0.2,
   }
 }
 
