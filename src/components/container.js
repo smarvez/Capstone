@@ -4,6 +4,7 @@ import Submit from './submit';
 import Form from './form';
 import InputBox from './inputbox';
 import SmallInputBox from './smallinputbox';
+import SliderVal from  './slider';
 
 const Container = () => {
 
@@ -14,6 +15,7 @@ const Container = () => {
       <SmallInputBox />
       <InputBox />
       <Submit />
+      <SliderVal />
     </View>
   )
 
