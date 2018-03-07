@@ -18,10 +18,9 @@ const styles = {
   textStyle: {
     alignSelf: 'center',
     color: 'white',
-    fontSize: 16,
-    fontWeight: '600',
-    // paddingTop: 20,
-    paddingBottom: 20
+    fontSize: 20,
+    paddingBottom: 30,
+    fontFamily: 'DidactGothic-Regular',
   },
   buttonStyle: {
     flex: 1,
@@ -31,11 +30,11 @@ const styles = {
     justifyContent: 'center',
     backgroundColor: '#3aafa9',
     padding: 20,
-    borderRadius: 10,
+    borderRadius: 27,
     borderColor: '#3aafa9',
     borderWidth: 1,
     marginLeft: 5,
-    marginRight: 5
+    marginRight: 5,
   }
 };
 

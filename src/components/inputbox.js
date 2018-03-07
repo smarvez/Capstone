@@ -1,9 +1,10 @@
 import React from 'react';
 import { Text, View, TextInput } from 'react-native';
-import styles from './../../style.js';
 
 
-const SmallInputBox = ({onChangeText}) => {
+const InputBox = ({onChangeText}) => {
+
+  const { inputStyle, } = styles;
 
   return (
     <View>
@@ -16,7 +17,23 @@ const SmallInputBox = ({onChangeText}) => {
 
 }
 
+const styles = {
+  inputStyle: {
+    backgroundColor: '#FEFFFF',
+    borderRadius: 27,
+    height: 45,
+    width:  250,
+    borderColor: 'rgba(58,175,169,0.5)',
+    borderWidth: 2.5,
+    color: '#17252A',
+    textAlign: 'center',
+    fontSize: 18,
+    marginTop: 10,
+    marginBottom: 10,
+    fontFamily: 'DidactGothic-Regular',
+    position: 'relative',
+  },
+}
 
 
-
-export default SmallInputBox;
+export default InputBox;
