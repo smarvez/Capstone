@@ -6,9 +6,7 @@ import Submit from './src/components/submit';
 const App = () => {
   return (
     <View>
-      <Header/>
-    </View>
-    <View>
+      <Header />
       <Submit />
     </View>
   );
