@@ -31,7 +31,7 @@ const styles = {
     justifyContent: 'center',
     backgroundColor: '#3aafa9',
     padding: 20,
-    borderRadius: 8,
+    borderRadius: 10,
     borderColor: '#3aafa9',
     borderWidth: 1,
     marginLeft: 5,
