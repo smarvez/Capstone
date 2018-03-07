@@ -21,10 +21,11 @@ var styles = StyleSheet.create({
     shadowOpacity: 0.2,
     position: 'relative'
   },
-  
+
   headerText: {
     fontSize: 20,
   },
+
 
 });
 
