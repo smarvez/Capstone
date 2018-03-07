@@ -19,12 +19,43 @@ var styles = StyleSheet.create({
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2},
     shadowOpacity: 0.2,
-    position: 'relative'
+    position: 'relative',
   },
-  
+
   headerText: {
     fontSize: 20,
   },
+
+  inputStyle: {
+    backgroundColor: '#FEFFFF',
+    borderRadius: 25,
+    height: 55,
+    width:  300,
+    borderColor: 'rgba(58,175,169,0.5)',
+    borderWidth: 2.5,
+    color: '#17252A',
+    textAlign: 'center',
+    fontSize: 20,
+    marginBottom: 23,
+    fontFamily: 'DidactGothic-Regular',
+    justifyContent: 'center',
+    alignItems: 'center',
+    position: 'relative',
+  },
+
+  smallInputStyle: {
+    backgroundColor: '#FEFFFF',
+    borderRadius: 8,
+    height: 50,
+    width: 60,
+    borderColor: 'rgba(58,175,169,0.5)',
+    borderWidth: 2.2,
+    color: '#17252A',
+    textAlign: 'center',
+    fontSize: 15,
+    marginBottom: 23,
+    fontFamily: 'DidactGothic-Regular',
+  }
 
 });
 

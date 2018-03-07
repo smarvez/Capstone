@@ -1,85 +1,65 @@
 import React, { Component } from 'react';
 import { View, Text, Button, TextInput } from 'react-native';
-import t from 'tcomb-form-native';
 import styles from './../../style.js';
+import InputBox from './inputbox';
+import SmallInputBox from './smallinputbox';
 
-const SignIn = t.form.Form;
 
-const User = t.struct({
-  email: t.String,
-  password: t.String,
-});
-
-const options = {
-  fields: {
-    email: {
-      error: 'Please enter an email address',
-    },
-    password:{
-      error: 'Please enter a password',
-    },
-  },
-}
 
 class Form extends Component {
 
-  state = {
-      email: "",
-      password: ""
-    }
+  constructor(props) {
+     super(props)
+     this.state = {
+         email: "",
+         password: "",
+         sample:""
+       }
+   }
 
-  async APICall(method) {
-    try {
-      let response = await fetch('https://e-pro-api.herokuapp.com/login', {
-        method: method,
+  loginUser = async (method) => {
+      const response = await fetch('https://e-pro-api.herokuapp.com/login', {
+        method: 'POST',
         headers: {
           'Accept': 'application/json',
           'Content-Type': 'application/json',
+
         },
         body: JSON.stringify({
           email:this.state.email,
           password:this.state.password
         }),
       })
-      let responseJson = await response.json()
+      const responseJson = await response.json()
+      console.log(this.state.email);
+      console.log(this.state.password);
       console.log(responseJson)
-      return responseJson
-        } catch(error) {
-            console.error(error);
-          }
   }
 
-  handleSubmit = () => {
-    const value = this._form.getValue(); // use that ref to get the form value
-    let newEmail = value.email
-    let newPassword = value.password
-    this.setState({
-      email:newEmail,
-      password:newPassword
-    })
-    this.APICall('POST')
-  }
 
   render() {
-
     return (
+
       <View style={styles.container}>
+        <InputBox
+        value={this.state.email}
+         onChangeText={(text) => this.setState({email:text})}
+         />
 
-        {/*// <TextInput
-        // autoCapitalize = 'none'
-        // />*/}
+        <InputBox
+        value={this.state.password}
+        onChangeText={(text) => this.setState({password:text})}
+        />
 
-        <SignIn
-        autoCapitalize="none"
-        ref={ c => this._form = c}
-        type={User}
-        options={options}/>
+        <SmallInputBox/>
 
         <Button
           title="Sign In!"
           onPress={
-            this.handleSubmit
-          }/>
+          this.loginUser
+          }
+        />
+
 
       </View>
     )

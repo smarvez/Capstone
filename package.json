@@ -27,6 +27,11 @@
     "url": "git+https://github.com/smarvez/Capstone.git"
   },
   "keywords": [],
+  "rnpm": {
+    "assets": [
+      "./assets/fonts/"
+    ]
+  },
   "author": "",
   "license": "ISC",
   "bugs": {
